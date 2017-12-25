@@ -1,0 +1,365 @@
+2017-12-22 17:57:07.110  INFO 1901 --- [restartedMain] com.cf.CfApplication                     : Starting CfApplication on bogon with PID 1901 (/Users/qianjianlei/Downloads/shiro_boot/target/classes started by qianjianlei in /Users/qianjianlei/Downloads/shiro_boot)
+2017-12-22 17:57:07.112 DEBUG 1901 --- [restartedMain] com.cf.CfApplication                     : Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2017-12-22 17:57:07.112  INFO 1901 --- [restartedMain] com.cf.CfApplication                     : The following profiles are active: dev
+2017-12-22 17:57:07.382  INFO 1901 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@777ed206: startup date [Fri Dec 22 17:57:07 CST 2017]; root of context hierarchy
+2017-12-22 17:57:08.840  INFO 1901 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.cf.config.ShiroConfig$$EnhancerBySpringCGLIB$$9c343d0d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-22 17:57:08.978  INFO 1901 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'druidConfig' of type [com.cf.config.DruidConfig$$EnhancerBySpringCGLIB$$f0daa07e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-22 17:57:09.040  INFO 1901 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'statFilter' of type [com.alibaba.druid.filter.stat.StatFilter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-22 17:57:09.061  INFO 1901 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'wallFilter' of type [com.alibaba.druid.wall.WallFilter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-22 17:57:09.091  INFO 1901 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-22 17:57:09.094  INFO 1901 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'myBatisConfig' of type [com.cf.config.MyBatisConfig$$EnhancerBySpringCGLIB$$c120050f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-22 17:57:09.380  INFO 1901 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-22 17:57:09.398  INFO 1901 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-22 17:57:09.400  INFO 1901 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysUserDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-22 17:57:09.404  INFO 1901 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysUserDao' of type [com.sun.proxy.$Proxy62] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-22 17:57:09.415  INFO 1901 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysUserRoleDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-22 17:57:09.419  INFO 1901 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysUserRoleDao' of type [com.sun.proxy.$Proxy63] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-22 17:57:09.421  INFO 1901 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysUserRoleService' of type [com.cf.service.impl.SysUserRoleServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-22 17:57:09.435  INFO 1901 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysRoleDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-22 17:57:09.437  INFO 1901 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysRoleDao' of type [com.sun.proxy.$Proxy65] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-22 17:57:09.448  INFO 1901 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysRoleMenuDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-22 17:57:09.451  INFO 1901 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysRoleMenuDao' of type [com.sun.proxy.$Proxy66] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-22 17:57:09.452  INFO 1901 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysRoleMenuService' of type [com.cf.service.impl.SysRoleMenuServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-22 17:57:09.456  INFO 1901 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysRoleService' of type [com.cf.service.impl.SysRoleServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-22 17:57:09.458  INFO 1901 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysUserService' of type [com.cf.service.impl.SysUserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-22 17:57:09.472  INFO 1901 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysMenuDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-22 17:57:09.475  INFO 1901 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysMenuDao' of type [com.sun.proxy.$Proxy67] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-22 17:57:09.478  INFO 1901 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysMenuService' of type [com.cf.service.impl.SysMenuServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-22 17:57:09.482  INFO 1901 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userRealm' of type [com.cf.utils.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-22 17:57:09.532  INFO 1901 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sessionManager' of type [org.apache.shiro.web.session.mgt.DefaultWebSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-22 17:57:09.723  INFO 1901 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-22 17:57:09.860  INFO 1901 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-22 17:57:09.919  INFO 1901 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e56acb83] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-22 17:57:10.749  INFO 1901 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 9194 (http)
+2017-12-22 17:57:10.761  INFO 1901 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-12-22 17:57:10.762  INFO 1901 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-12-22 17:57:10.840  INFO 1901 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-12-22 17:57:10.840  INFO 1901 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3461 ms
+2017-12-22 17:57:11.426  INFO 1901 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-22 17:57:11.427  INFO 1901 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-22 17:57:11.427  INFO 1901 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-22 17:57:11.427  INFO 1901 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-22 17:57:11.427  INFO 1901 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'delegatingFilterProxy' to urls: [/*]
+2017-12-22 17:57:11.427  INFO 1901 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'xssFilter' to urls: [/*]
+2017-12-22 17:57:11.427  INFO 1901 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'shiroFilter' to: [/*]
+2017-12-22 17:57:11.428  INFO 1901 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-22 17:57:11.429  INFO 1901 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-22 17:57:16.162  INFO 1901 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2017-12-22 17:57:16.222  INFO 1901 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2017-12-22 17:57:16.222  INFO 1901 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.0 created.
+2017-12-22 17:57:16.585  INFO 1901 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2017-12-22 17:57:16.589  INFO 1901 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2017-12-22 17:57:16.591  INFO 1901 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2017-12-22 17:57:16.593  INFO 1901 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.0) 'CfScheduler' with instanceId 'bogon1513936636201'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2017-12-22 17:57:16.593  INFO 1901 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'CfScheduler' initialized from an externally provided properties instance.
+2017-12-22 17:57:16.593  INFO 1901 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.0
+2017-12-22 17:57:16.596  INFO 1901 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@4198a709
+2017-12-22 17:57:16.768 DEBUG 1901 --- [restartedMain] com.cf.dao.ScheduleJobDao.queryList      : ==>  Preparing: select * from schedule_job 
+2017-12-22 17:57:16.851 DEBUG 1901 --- [restartedMain] com.cf.dao.ScheduleJobDao.queryList      : ==> Parameters: 
+2017-12-22 17:57:16.908 DEBUG 1901 --- [restartedMain] com.cf.dao.ScheduleJobDao.queryList      : <==      Total: 2
+2017-12-22 17:57:16.909 DEBUG 1901 --- [restartedMain] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20000} enter cache
+2017-12-22 17:57:17.000 DEBUG 1901 --- [restartedMain] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20002} enter cache
+2017-12-22 17:57:17.007 DEBUG 1901 --- [restartedMain] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20001} enter cache
+2017-12-22 17:57:17.101 DEBUG 1901 --- [restartedMain] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20003} enter cache
+2017-12-22 17:57:17.114 DEBUG 1901 --- [restartedMain] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20004} enter cache
+2017-12-22 17:57:17.121 DEBUG 1901 --- [restartedMain] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20005} enter cache
+2017-12-22 17:57:17.144 DEBUG 1901 --- [restartedMain] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20006} enter cache
+2017-12-22 17:57:17.162 DEBUG 1901 --- [restartedMain] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20007} enter cache
+2017-12-22 17:57:17.165 DEBUG 1901 --- [restartedMain] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20008} enter cache
+2017-12-22 17:57:17.169 DEBUG 1901 --- [restartedMain] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20009} enter cache
+2017-12-22 17:57:17.209 DEBUG 1901 --- [restartedMain] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20011} enter cache
+2017-12-22 17:57:17.209 DEBUG 1901 --- [restartedMain] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20010} enter cache
+2017-12-22 17:57:17.280 DEBUG 1901 --- [restartedMain] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20012} enter cache
+2017-12-22 17:57:17.283 DEBUG 1901 --- [restartedMain] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20013} enter cache
+2017-12-22 17:57:17.303 DEBUG 1901 --- [restartedMain] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20014} enter cache
+2017-12-22 17:57:18.396  INFO 1901 --- [restartedMain] o.s.aop.framework.CglibAopProxy          : Method [java.util.List springfox.documentation.schema.property.OptimizedModelPropertiesProvider.candidateProperties(com.fasterxml.classmate.ResolvedType,com.fasterxml.jackson.databind.introspect.AnnotatedMember,com.fasterxml.jackson.databind.introspect.BeanPropertyDefinition,springfox.documentation.spi.schema.contexts.ModelContext)] is package-visible across different ClassLoaders and cannot get proxied via CGLIB: Declare this method as public or protected if you need to support invocations through the proxy.
+2017-12-22 17:57:19.738  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/login],methods=[POST]}" onto public com.cf.utils.R com.cf.api.ApiLoginController.login(java.lang.String,java.lang.String)
+2017-12-22 17:57:19.740  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/register],methods=[POST]}" onto public com.cf.utils.R com.cf.api.ApiRegisterController.register(java.lang.String,java.lang.String)
+2017-12-22 17:57:19.743  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/userInfo],methods=[GET]}" onto public com.cf.utils.R com.cf.api.ApiTestController.userInfo(com.cf.entity.UserEntity)
+2017-12-22 17:57:19.743  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/notToken],methods=[GET]}" onto public com.cf.utils.R com.cf.api.ApiTestController.notToken()
+2017-12-22 17:57:19.747  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/schedule/run]}" onto public com.cf.utils.R com.cf.controller.ScheduleJobController.run(java.lang.Long[])
+2017-12-22 17:57:19.748  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/schedule/update]}" onto public com.cf.utils.R com.cf.controller.ScheduleJobController.update(com.cf.entity.ScheduleJobEntity)
+2017-12-22 17:57:19.748  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/schedule/delete]}" onto public com.cf.utils.R com.cf.controller.ScheduleJobController.delete(java.lang.Long[])
+2017-12-22 17:57:19.748  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/schedule/resume]}" onto public com.cf.utils.R com.cf.controller.ScheduleJobController.resume(java.lang.Long[])
+2017-12-22 17:57:19.749  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/schedule/list]}" onto public com.cf.utils.R com.cf.controller.ScheduleJobController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-22 17:57:19.749  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/schedule/save]}" onto public com.cf.utils.R com.cf.controller.ScheduleJobController.save(com.cf.entity.ScheduleJobEntity)
+2017-12-22 17:57:19.749  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/schedule/info/{jobId}]}" onto public com.cf.utils.R com.cf.controller.ScheduleJobController.info(java.lang.Long)
+2017-12-22 17:57:19.750  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/schedule/pause]}" onto public com.cf.utils.R com.cf.controller.ScheduleJobController.pause(java.lang.Long[])
+2017-12-22 17:57:19.751  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/scheduleLog/list]}" onto public com.cf.utils.R com.cf.controller.ScheduleJobLogController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-22 17:57:19.751  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/scheduleLog/info/{logId}]}" onto public com.cf.utils.R com.cf.controller.ScheduleJobLogController.info(java.lang.Long)
+2017-12-22 17:57:19.752  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/config/update]}" onto public com.cf.utils.R com.cf.controller.SysConfigController.update(com.cf.entity.SysConfigEntity)
+2017-12-22 17:57:19.753  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/config/delete]}" onto public com.cf.utils.R com.cf.controller.SysConfigController.delete(java.lang.Long[])
+2017-12-22 17:57:19.754  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/config/list]}" onto public com.cf.utils.R com.cf.controller.SysConfigController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-22 17:57:19.755  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/config/save]}" onto public com.cf.utils.R com.cf.controller.SysConfigController.save(com.cf.entity.SysConfigEntity)
+2017-12-22 17:57:19.755  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/config/info/{id}]}" onto public com.cf.utils.R com.cf.controller.SysConfigController.info(java.lang.Long)
+2017-12-22 17:57:19.758  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/generator/list]}" onto public com.cf.utils.R com.cf.controller.SysGeneratorController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-22 17:57:19.758  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/generator/code]}" onto public void com.cf.controller.SysGeneratorController.code(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException
+2017-12-22 17:57:19.759  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/log/list]}" onto public com.cf.utils.R com.cf.controller.SysLogController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-22 17:57:19.760  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/logout],methods=[GET]}" onto public java.lang.String com.cf.controller.SysLoginController.logout()
+2017-12-22 17:57:19.760  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/captcha.jpg]}" onto public void com.cf.controller.SysLoginController.captcha(javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+2017-12-22 17:57:19.760  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/login],methods=[POST]}" onto public com.cf.utils.R com.cf.controller.SysLoginController.login(java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException
+2017-12-22 17:57:19.763  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/menu/update]}" onto public com.cf.utils.R com.cf.controller.SysMenuController.update(com.cf.entity.SysMenuEntity)
+2017-12-22 17:57:19.763  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/menu/delete]}" onto public com.cf.utils.R com.cf.controller.SysMenuController.delete(java.lang.Long[])
+2017-12-22 17:57:19.764  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/menu/list]}" onto public com.cf.utils.R com.cf.controller.SysMenuController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-22 17:57:19.765  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/menu/save]}" onto public com.cf.utils.R com.cf.controller.SysMenuController.save(com.cf.entity.SysMenuEntity)
+2017-12-22 17:57:19.765  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/menu/user]}" onto public com.cf.utils.R com.cf.controller.SysMenuController.user()
+2017-12-22 17:57:19.765  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/menu/info/{menuId}]}" onto public com.cf.utils.R com.cf.controller.SysMenuController.info(java.lang.Long)
+2017-12-22 17:57:19.766  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/menu/select]}" onto public com.cf.utils.R com.cf.controller.SysMenuController.select()
+2017-12-22 17:57:19.766  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/menu/perms]}" onto public com.cf.utils.R com.cf.controller.SysMenuController.perms()
+2017-12-22 17:57:19.768  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/role/update]}" onto public com.cf.utils.R com.cf.controller.SysRoleController.update(com.cf.entity.SysRoleEntity)
+2017-12-22 17:57:19.768  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/role/delete]}" onto public com.cf.utils.R com.cf.controller.SysRoleController.delete(java.lang.Long[])
+2017-12-22 17:57:19.769  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/role/list]}" onto public com.cf.utils.R com.cf.controller.SysRoleController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-22 17:57:19.770  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/role/save]}" onto public com.cf.utils.R com.cf.controller.SysRoleController.save(com.cf.entity.SysRoleEntity)
+2017-12-22 17:57:19.771  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/role/info/{roleId}]}" onto public com.cf.utils.R com.cf.controller.SysRoleController.info(java.lang.Long)
+2017-12-22 17:57:19.772  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/role/select]}" onto public com.cf.utils.R com.cf.controller.SysRoleController.select()
+2017-12-22 17:57:19.774  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/user/update]}" onto public com.cf.utils.R com.cf.controller.SysUserController.update(com.cf.entity.SysUserEntity)
+2017-12-22 17:57:19.774  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/user/delete]}" onto public com.cf.utils.R com.cf.controller.SysUserController.delete(java.lang.Long[])
+2017-12-22 17:57:19.775  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/user/list]}" onto public com.cf.utils.R com.cf.controller.SysUserController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-22 17:57:19.775  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/user/save]}" onto public com.cf.utils.R com.cf.controller.SysUserController.save(com.cf.entity.SysUserEntity)
+2017-12-22 17:57:19.776  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/user/password]}" onto public com.cf.utils.R com.cf.controller.SysUserController.password(java.lang.String,java.lang.String)
+2017-12-22 17:57:19.776  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/user/info]}" onto public com.cf.utils.R com.cf.controller.SysUserController.info()
+2017-12-22 17:57:19.777  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/user/info/{userId}]}" onto public com.cf.utils.R com.cf.controller.SysUserController.info(java.lang.Long)
+2017-12-22 17:57:19.779  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v2/api-docs],methods=[GET]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String)
+2017-12-22 17:57:19.783  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2017-12-22 17:57:19.784  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2017-12-22 17:57:19.785  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2017-12-22 17:57:19.789  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-22 17:57:19.790  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-22 17:57:20.923  INFO 1901 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@777ed206: startup date [Fri Dec 22 17:57:07 CST 2017]; root of context hierarchy
+2017-12-22 17:57:21.287  INFO 1901 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-22 17:57:21.288  INFO 1901 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-22 17:57:21.469  INFO 1901 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in RRExceptionHandler
+2017-12-22 17:57:21.597  INFO 1901 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-22 17:57:21.813  WARN 1901 --- [restartedMain] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2017-12-22 17:57:22.360  INFO 1901 --- [restartedMain] oConfiguration$WelcomePageHandlerMapping : Adding welcome page: class path resource [static/index.html]
+2017-12-22 17:57:23.547  INFO 1901 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2017-12-22 17:57:24.010  INFO 1901 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-12-22 17:57:24.012  INFO 1901 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2017-12-22 17:57:24.012  INFO 1901 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'statFilter' has been autodetected for JMX exposure
+2017-12-22 17:57:24.013  INFO 1901 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'wallFilter' has been autodetected for JMX exposure
+2017-12-22 17:57:24.023  INFO 1901 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2017-12-22 17:57:24.025  INFO 1901 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'wallFilter': registering with JMX server as MBean [com.alibaba.druid.wall:name=wallFilter,type=WallFilter]
+2017-12-22 17:57:24.027  INFO 1901 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2017-12-22 17:57:24.033  INFO 1901 --- [restartedMain] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2017-12-22 17:57:24.033  INFO 1901 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Will start Quartz Scheduler [CfScheduler] in 30 seconds
+2017-12-22 17:57:24.046  INFO 1901 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2017-12-22 17:57:24.065  INFO 1901 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found {0} custom documentation plugin(s)
+2017-12-22 17:57:24.078  INFO 1901 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2017-12-22 17:57:24.086  INFO 1901 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method login was 登录接口
+2017-12-22 17:57:24.090  INFO 1901 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: login belongs to groups: [[ResourceGroup{groupName='登录接口', position=0, controller=com.cf.api.ApiLoginController}]] 
+2017-12-22 17:57:24.091  INFO 1901 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method notToken was 测试接口
+2017-12-22 17:57:24.091  INFO 1901 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: notToken belongs to groups: [[ResourceGroup{groupName='测试接口', position=0, controller=com.cf.api.ApiTestController}]] 
+2017-12-22 17:57:24.092  INFO 1901 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method register was 注册接口
+2017-12-22 17:57:24.092  INFO 1901 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: register belongs to groups: [[ResourceGroup{groupName='注册接口', position=0, controller=com.cf.api.ApiRegisterController}]] 
+2017-12-22 17:57:24.092  INFO 1901 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method userInfo was 测试接口
+2017-12-22 17:57:24.093  INFO 1901 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: userInfo belongs to groups: [[ResourceGroup{groupName='测试接口', position=0, controller=com.cf.api.ApiTestController}]] 
+2017-12-22 17:57:24.099  INFO 1901 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/测试接口 Description: 测试接口 Position: 0
+2017-12-22 17:57:24.100  INFO 1901 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/登录接口 Description: 登录接口 Position: 0
+2017-12-22 17:57:24.100  INFO 1901 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/注册接口 Description: 注册接口 Position: 0
+2017-12-22 17:57:24.123  INFO 1901 --- [restartedMain] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.cf.utils.R(true)
+2017-12-22 17:57:24.123  INFO 1901 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.cf.utils.R(true)
+2017-12-22 17:57:24.127  INFO 1901 --- [restartedMain] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.cf.utils.R(true)
+2017-12-22 17:57:24.128  INFO 1901 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.cf.utils.R(true)
+2017-12-22 17:57:24.135  INFO 1901 --- [restartedMain] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: com.cf.utils.R(true)
+2017-12-22 17:57:24.135  INFO 1901 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key com.cf.utils.R(true)
+2017-12-22 17:57:24.168  INFO 1901 --- [restartedMain] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /api/register.com.cf.api.ApiRegisterController.register.DefaultGenericTypeNamingStrategy
+2017-12-22 17:57:24.168  INFO 1901 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /api/register.com.cf.api.ApiRegisterController.register.DefaultGenericTypeNamingStrategy
+2017-12-22 17:57:24.189  INFO 1901 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method register was 注册接口
+2017-12-22 17:57:24.205  INFO 1901 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method register was 注册接口
+2017-12-22 17:57:24.220  INFO 1901 --- [restartedMain] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.cf.utils.R(true)
+2017-12-22 17:57:24.221  INFO 1901 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.cf.utils.R(true)
+2017-12-22 17:57:24.221  INFO 1901 --- [restartedMain] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.cf.utils.R(true)
+2017-12-22 17:57:24.221  INFO 1901 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.cf.utils.R(true)
+2017-12-22 17:57:24.221  INFO 1901 --- [restartedMain] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /api/notToken.com.cf.api.ApiTestController.notToken.DefaultGenericTypeNamingStrategy
+2017-12-22 17:57:24.221  INFO 1901 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /api/notToken.com.cf.api.ApiTestController.notToken.DefaultGenericTypeNamingStrategy
+2017-12-22 17:57:24.222  INFO 1901 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method notToken was 测试接口
+2017-12-22 17:57:24.223  INFO 1901 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method notToken was 测试接口
+2017-12-22 17:57:24.225  INFO 1901 --- [restartedMain] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.cf.utils.R(true)
+2017-12-22 17:57:24.225  INFO 1901 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.cf.utils.R(true)
+2017-12-22 17:57:24.225  INFO 1901 --- [restartedMain] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.cf.utils.R(true)
+2017-12-22 17:57:24.225  INFO 1901 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.cf.utils.R(true)
+2017-12-22 17:57:24.225  INFO 1901 --- [restartedMain] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /api/userInfo.com.cf.api.ApiTestController.userInfo.DefaultGenericTypeNamingStrategy
+2017-12-22 17:57:24.226  INFO 1901 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /api/userInfo.com.cf.api.ApiTestController.userInfo.DefaultGenericTypeNamingStrategy
+2017-12-22 17:57:24.227  INFO 1901 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method userInfo was 测试接口
+2017-12-22 17:57:24.228  INFO 1901 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method userInfo was 测试接口
+2017-12-22 17:57:24.230  INFO 1901 --- [restartedMain] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.cf.utils.R(true)
+2017-12-22 17:57:24.231  INFO 1901 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.cf.utils.R(true)
+2017-12-22 17:57:24.231  INFO 1901 --- [restartedMain] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.cf.utils.R(true)
+2017-12-22 17:57:24.231  INFO 1901 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.cf.utils.R(true)
+2017-12-22 17:57:24.231  INFO 1901 --- [restartedMain] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /api/login.com.cf.api.ApiLoginController.login.DefaultGenericTypeNamingStrategy
+2017-12-22 17:57:24.231  INFO 1901 --- [restartedMain] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /api/login.com.cf.api.ApiLoginController.login.DefaultGenericTypeNamingStrategy
+2017-12-22 17:57:24.233  INFO 1901 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method login was 登录接口
+2017-12-22 17:57:24.234  INFO 1901 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method login was 登录接口
+2017-12-22 17:57:24.329  INFO 1901 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 9194 (http)
+2017-12-22 17:57:24.339  INFO 1901 --- [restartedMain] com.cf.CfApplication                     : Started CfApplication in 17.594 seconds (JVM running for 18.283)
+2017-12-22 17:57:47.819  INFO 1901 --- [http-nio-9194-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-22 17:57:47.819  INFO 1901 --- [http-nio-9194-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-22 17:57:47.858  INFO 1901 --- [http-nio-9194-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 39 ms
+2017-12-22 17:57:47.874  INFO 1901 --- [http-nio-9194-exec-1] a.s.s.m.AbstractValidatingSessionManager : Enabling session validation scheduler...
+2017-12-22 17:57:54.037  INFO 1901 --- [Quartz Scheduler [CfScheduler]] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now, after delay of 30 seconds
+2017-12-22 17:57:54.046 DEBUG 1901 --- [Quartz Scheduler [CfScheduler]] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20015} enter cache
+2017-12-22 17:57:54.050 DEBUG 1901 --- [Quartz Scheduler [CfScheduler]] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20016} enter cache
+2017-12-22 17:57:54.053 DEBUG 1901 --- [Quartz Scheduler [CfScheduler]] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20017} enter cache
+2017-12-22 17:57:54.054 DEBUG 1901 --- [Quartz Scheduler [CfScheduler]] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20018} enter cache
+2017-12-22 17:57:54.055  INFO 1901 --- [Quartz Scheduler [CfScheduler]] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: detected 1 failed or restarted instances.
+2017-12-22 17:57:54.055  INFO 1901 --- [Quartz Scheduler [CfScheduler]] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: Scanning for instance "bogon1503479241046"'s failed in-progress jobs.
+2017-12-22 17:57:54.056 DEBUG 1901 --- [Quartz Scheduler [CfScheduler]] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20019} enter cache
+2017-12-22 17:57:54.057 DEBUG 1901 --- [Quartz Scheduler [CfScheduler]] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20000} exit cache
+2017-12-22 17:57:54.057 DEBUG 1901 --- [Quartz Scheduler [CfScheduler]] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20020} enter cache
+2017-12-22 17:57:54.058 DEBUG 1901 --- [Quartz Scheduler [CfScheduler]] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20004} exit cache
+2017-12-22 17:57:54.059 DEBUG 1901 --- [Quartz Scheduler [CfScheduler]] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20021} enter cache
+2017-12-22 17:57:54.076  INFO 1901 --- [Quartz Scheduler [CfScheduler]] org.quartz.core.QuartzScheduler          : Scheduler CfScheduler_$_bogon1513936636201 started.
+2017-12-22 17:57:54.087 DEBUG 1901 --- [QuartzScheduler_CfScheduler-bogon1513936636201_MisfireHandler] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20005} exit cache
+2017-12-22 17:57:54.087 DEBUG 1901 --- [QuartzScheduler_CfScheduler-bogon1513936636201_MisfireHandler] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20022} enter cache
+2017-12-22 17:57:54.088 DEBUG 1901 --- [CfScheduler_QuartzSchedulerThread] c.a.druid.pool.PreparedStatementPool     : {conn-10004, pstmt-20023} enter cache
+2017-12-22 17:57:54.090 DEBUG 1901 --- [QuartzScheduler_CfScheduler-bogon1513936636201_MisfireHandler] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20006} exit cache
+2017-12-22 17:57:54.090 DEBUG 1901 --- [QuartzScheduler_CfScheduler-bogon1513936636201_MisfireHandler] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20024} enter cache
+2017-12-22 17:57:54.090  INFO 1901 --- [QuartzScheduler_CfScheduler-bogon1513936636201_MisfireHandler] o.s.s.quartz.LocalDataSourceJobStore     : Handling 1 trigger(s) that missed their scheduled fire-time.
+2017-12-22 17:57:54.097 DEBUG 1901 --- [QuartzScheduler_CfScheduler-bogon1513936636201_MisfireHandler] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20007} exit cache
+2017-12-22 17:57:54.097 DEBUG 1901 --- [QuartzScheduler_CfScheduler-bogon1513936636201_MisfireHandler] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20025} enter cache
+2017-12-22 17:57:54.102 DEBUG 1901 --- [QuartzScheduler_CfScheduler-bogon1513936636201_MisfireHandler] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20011} exit cache
+2017-12-22 17:57:54.102 DEBUG 1901 --- [QuartzScheduler_CfScheduler-bogon1513936636201_MisfireHandler] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20027} enter cache
+2017-12-22 17:57:54.102 DEBUG 1901 --- [QuartzScheduler_CfScheduler-bogon1513936636201_MisfireHandler] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20010} exit cache
+2017-12-22 17:57:54.102 DEBUG 1901 --- [QuartzScheduler_CfScheduler-bogon1513936636201_MisfireHandler] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20026} enter cache
+2017-12-22 17:57:54.120 DEBUG 1901 --- [CfScheduler_QuartzSchedulerThread] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20012} exit cache
+2017-12-22 17:57:54.121 DEBUG 1901 --- [CfScheduler_QuartzSchedulerThread] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20028} enter cache
+2017-12-22 17:57:56.505 DEBUG 1901 --- [http-nio-9194-exec-17] com.cf.dao.SysUserDao.queryByUserName    : ==>  Preparing: select * from sys_user where username = ? 
+2017-12-22 17:57:56.506 DEBUG 1901 --- [http-nio-9194-exec-17] com.cf.dao.SysUserDao.queryByUserName    : ==> Parameters: admin(String)
+2017-12-22 17:57:56.510 DEBUG 1901 --- [http-nio-9194-exec-17] com.cf.dao.SysUserDao.queryByUserName    : <==      Total: 1
+2017-12-22 17:57:56.510 DEBUG 1901 --- [http-nio-9194-exec-17] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20013} exit cache
+2017-12-22 17:57:56.510 DEBUG 1901 --- [http-nio-9194-exec-17] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20029} enter cache
+2017-12-22 17:57:56.698 DEBUG 1901 --- [http-nio-9194-exec-1] com.cf.dao.SysMenuDao.queryListParentId  : ==>  Preparing: select * from sys_menu where parent_id = ? order by order_num asc 
+2017-12-22 17:57:56.703 DEBUG 1901 --- [http-nio-9194-exec-1] com.cf.dao.SysMenuDao.queryListParentId  : ==> Parameters: 0(Long)
+2017-12-22 17:57:56.712 DEBUG 1901 --- [http-nio-9194-exec-1] com.cf.dao.SysMenuDao.queryListParentId  : <==      Total: 1
+2017-12-22 17:57:56.713 DEBUG 1901 --- [http-nio-9194-exec-1] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20014} exit cache
+2017-12-22 17:57:56.713 DEBUG 1901 --- [http-nio-9194-exec-1] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20030} enter cache
+2017-12-22 17:57:56.714 DEBUG 1901 --- [http-nio-9194-exec-1] com.cf.dao.SysMenuDao.queryListParentId  : ==>  Preparing: select * from sys_menu where parent_id = ? order by order_num asc 
+2017-12-22 17:57:56.714 DEBUG 1901 --- [http-nio-9194-exec-1] com.cf.dao.SysMenuDao.queryListParentId  : ==> Parameters: 1(Long)
+2017-12-22 17:57:56.732 DEBUG 1901 --- [http-nio-9194-exec-1] com.cf.dao.SysMenuDao.queryListParentId  : <==      Total: 8
+2017-12-22 17:57:56.753 DEBUG 1901 --- [http-nio-9194-exec-1] com.cf.dao.SysMenuDao.queryList          : ==>  Preparing: select m.*,(select p.name from sys_menu p where p.menu_id = m.parent_id) as parentName from sys_menu m order by m.order_num asc 
+2017-12-22 17:57:56.755 DEBUG 1901 --- [http-nio-9194-exec-1] com.cf.dao.SysMenuDao.queryList          : ==> Parameters: 
+2017-12-22 17:57:56.839 DEBUG 1901 --- [http-nio-9194-exec-1] com.cf.dao.SysMenuDao.queryList          : <==      Total: 29
+2017-12-22 17:57:56.840 DEBUG 1901 --- [http-nio-9194-exec-1] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20015} exit cache
+2017-12-22 17:57:56.841 DEBUG 1901 --- [http-nio-9194-exec-1] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20031} enter cache
+2017-12-22 17:58:03.528 DEBUG 1901 --- [http-nio-9194-exec-24] com.cf.dao.SysMenuDao.queryList          : ==>  Preparing: select m.*,(select p.name from sys_menu p where p.menu_id = m.parent_id) as parentName from sys_menu m order by m.order_num asc 
+2017-12-22 17:58:03.529 DEBUG 1901 --- [http-nio-9194-exec-24] com.cf.dao.SysMenuDao.queryList          : ==> Parameters: 
+2017-12-22 17:58:03.533 DEBUG 1901 --- [http-nio-9194-exec-24] com.cf.dao.SysMenuDao.queryList          : <==      Total: 29
+2017-12-22 17:58:03.542 DEBUG 1901 --- [http-nio-9194-exec-24] com.cf.dao.SysMenuDao.queryList          : ==>  Preparing: select m.*,(select p.name from sys_menu p where p.menu_id = m.parent_id) as parentName from sys_menu m order by m.order_num asc 
+2017-12-22 17:58:03.542 DEBUG 1901 --- [http-nio-9194-exec-24] com.cf.dao.SysMenuDao.queryList          : ==> Parameters: 
+2017-12-22 17:58:03.549 DEBUG 1901 --- [http-nio-9194-exec-24] com.cf.dao.SysMenuDao.queryList          : <==      Total: 29
+2017-12-22 17:58:03.561 DEBUG 1901 --- [http-nio-9194-exec-24] com.cf.dao.SysConfigDao.queryList        : ==>  Preparing: select * from sys_config where status = 1 limit ?, ? 
+2017-12-22 17:58:03.564 DEBUG 1901 --- [http-nio-9194-exec-24] com.cf.dao.SysConfigDao.queryList        : ==> Parameters: 0(Integer), 10(Integer)
+2017-12-22 17:58:03.566 DEBUG 1901 --- [http-nio-9194-exec-24] com.cf.dao.SysConfigDao.queryList        : <==      Total: 1
+2017-12-22 17:58:03.567 DEBUG 1901 --- [http-nio-9194-exec-24] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20016} exit cache
+2017-12-22 17:58:03.567 DEBUG 1901 --- [http-nio-9194-exec-24] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20032} enter cache
+2017-12-22 17:58:03.568 DEBUG 1901 --- [http-nio-9194-exec-24] com.cf.dao.SysConfigDao.queryTotal       : ==>  Preparing: select count(*) from sys_config where status = 1 
+2017-12-22 17:58:03.569 DEBUG 1901 --- [http-nio-9194-exec-24] com.cf.dao.SysConfigDao.queryTotal       : ==> Parameters: 
+2017-12-22 17:58:03.570 DEBUG 1901 --- [http-nio-9194-exec-24] com.cf.dao.SysConfigDao.queryTotal       : <==      Total: 1
+2017-12-22 17:58:03.571 DEBUG 1901 --- [http-nio-9194-exec-24] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20017} exit cache
+2017-12-22 17:58:03.571 DEBUG 1901 --- [http-nio-9194-exec-24] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20033} enter cache
+2017-12-22 17:58:05.249 DEBUG 1901 --- [http-nio-9194-exec-13] com.cf.dao.SysMenuDao.queryList          : ==>  Preparing: select m.*,(select p.name from sys_menu p where p.menu_id = m.parent_id) as parentName from sys_menu m order by m.order_num asc 
+2017-12-22 17:58:05.249 DEBUG 1901 --- [http-nio-9194-exec-13] com.cf.dao.SysMenuDao.queryList          : ==> Parameters: 
+2017-12-22 17:58:05.253 DEBUG 1901 --- [http-nio-9194-exec-13] com.cf.dao.SysMenuDao.queryList          : <==      Total: 29
+2017-12-22 17:58:05.255 DEBUG 1901 --- [http-nio-9194-exec-13] com.cf.dao.SysMenuDao.queryList          : ==>  Preparing: select m.*,(select p.name from sys_menu p where p.menu_id = m.parent_id) as parentName from sys_menu m order by m.order_num asc 
+2017-12-22 17:58:05.255 DEBUG 1901 --- [http-nio-9194-exec-13] com.cf.dao.SysMenuDao.queryList          : ==> Parameters: 
+2017-12-22 17:58:05.259 DEBUG 1901 --- [http-nio-9194-exec-13] com.cf.dao.SysMenuDao.queryList          : <==      Total: 29
+2017-12-22 17:58:05.261 DEBUG 1901 --- [http-nio-9194-exec-13] com.cf.dao.SysMenuDao.queryList          : ==>  Preparing: select m.*,(select p.name from sys_menu p where p.menu_id = m.parent_id) as parentName from sys_menu m order by m.order_num asc limit ?, ? 
+2017-12-22 17:58:05.262 DEBUG 1901 --- [http-nio-9194-exec-13] com.cf.dao.SysMenuDao.queryList          : ==> Parameters: 0(Integer), 10(Integer)
+2017-12-22 17:58:05.267 DEBUG 1901 --- [http-nio-9194-exec-13] com.cf.dao.SysMenuDao.queryList          : <==      Total: 10
+2017-12-22 17:58:05.268 DEBUG 1901 --- [http-nio-9194-exec-13] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20018} exit cache
+2017-12-22 17:58:05.268 DEBUG 1901 --- [http-nio-9194-exec-13] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20034} enter cache
+2017-12-22 17:58:05.268 DEBUG 1901 --- [http-nio-9194-exec-13] com.cf.dao.SysMenuDao.queryTotal         : ==>  Preparing: select count(*) from sys_menu 
+2017-12-22 17:58:05.269 DEBUG 1901 --- [http-nio-9194-exec-13] com.cf.dao.SysMenuDao.queryTotal         : ==> Parameters: 
+2017-12-22 17:58:05.270 DEBUG 1901 --- [http-nio-9194-exec-13] com.cf.dao.SysMenuDao.queryTotal         : <==      Total: 1
+2017-12-22 17:58:05.270 DEBUG 1901 --- [http-nio-9194-exec-13] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20019} exit cache
+2017-12-22 17:58:05.270 DEBUG 1901 --- [http-nio-9194-exec-13] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20035} enter cache
+2017-12-22 17:58:06.039 DEBUG 1901 --- [http-nio-9194-exec-1] com.cf.dao.SysMenuDao.queryList          : ==>  Preparing: select m.*,(select p.name from sys_menu p where p.menu_id = m.parent_id) as parentName from sys_menu m order by m.order_num asc 
+2017-12-22 17:58:06.040 DEBUG 1901 --- [http-nio-9194-exec-1] com.cf.dao.SysMenuDao.queryList          : ==> Parameters: 
+2017-12-22 17:58:06.044 DEBUG 1901 --- [http-nio-9194-exec-1] com.cf.dao.SysMenuDao.queryList          : <==      Total: 29
+2017-12-22 17:58:06.048 DEBUG 1901 --- [http-nio-9194-exec-1] com.cf.dao.SysMenuDao.queryList          : ==>  Preparing: select m.*,(select p.name from sys_menu p where p.menu_id = m.parent_id) as parentName from sys_menu m order by m.order_num asc 
+2017-12-22 17:58:06.048 DEBUG 1901 --- [http-nio-9194-exec-1] com.cf.dao.SysMenuDao.queryList          : ==> Parameters: 
+2017-12-22 17:58:06.052 DEBUG 1901 --- [http-nio-9194-exec-1] com.cf.dao.SysMenuDao.queryList          : <==      Total: 29
+2017-12-22 17:58:06.056 DEBUG 1901 --- [http-nio-9194-exec-1] com.cf.dao.SysUserDao.queryList          : ==>  Preparing: select * from sys_user order by user_id desc limit ?, ? 
+2017-12-22 17:58:06.057 DEBUG 1901 --- [http-nio-9194-exec-1] com.cf.dao.SysUserDao.queryList          : ==> Parameters: 0(Integer), 10(Integer)
+2017-12-22 17:58:06.064 DEBUG 1901 --- [http-nio-9194-exec-1] com.cf.dao.SysUserDao.queryList          : <==      Total: 2
+2017-12-22 17:58:06.066 DEBUG 1901 --- [http-nio-9194-exec-1] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20020} exit cache
+2017-12-22 17:58:06.066 DEBUG 1901 --- [http-nio-9194-exec-1] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20036} enter cache
+2017-12-22 17:58:06.066 DEBUG 1901 --- [http-nio-9194-exec-1] com.cf.dao.SysUserDao.queryTotal         : ==>  Preparing: select count(*) from sys_user 
+2017-12-22 17:58:06.067 DEBUG 1901 --- [http-nio-9194-exec-1] com.cf.dao.SysUserDao.queryTotal         : ==> Parameters: 
+2017-12-22 17:58:06.067 DEBUG 1901 --- [http-nio-9194-exec-1] com.cf.dao.SysUserDao.queryTotal         : <==      Total: 1
+2017-12-22 17:58:06.068 DEBUG 1901 --- [http-nio-9194-exec-1] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20021} exit cache
+2017-12-22 17:58:06.068 DEBUG 1901 --- [http-nio-9194-exec-1] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20037} enter cache
+2017-12-22 17:58:09.054 DEBUG 1901 --- [QuartzScheduler_CfScheduler-bogon1513936636201_ClusterManager] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20003} exit cache
+2017-12-22 17:58:09.054 DEBUG 1901 --- [QuartzScheduler_CfScheduler-bogon1513936636201_ClusterManager] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20038} enter cache
+2017-12-22 17:58:09.056 DEBUG 1901 --- [QuartzScheduler_CfScheduler-bogon1513936636201_ClusterManager] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20024} exit cache
+2017-12-22 17:58:09.056 DEBUG 1901 --- [QuartzScheduler_CfScheduler-bogon1513936636201_ClusterManager] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20039} enter cache
+2017-12-22 17:58:13.257 DEBUG 1901 --- [http-nio-9194-exec-7] com.cf.dao.SysMenuDao.queryList          : ==>  Preparing: select m.*,(select p.name from sys_menu p where p.menu_id = m.parent_id) as parentName from sys_menu m order by m.order_num asc 
+2017-12-22 17:58:13.258 DEBUG 1901 --- [http-nio-9194-exec-7] com.cf.dao.SysMenuDao.queryList          : ==> Parameters: 
+2017-12-22 17:58:13.261 DEBUG 1901 --- [http-nio-9194-exec-7] com.cf.dao.SysMenuDao.queryList          : <==      Total: 29
+2017-12-22 17:58:13.263 DEBUG 1901 --- [http-nio-9194-exec-7] com.cf.dao.SysMenuDao.queryList          : ==>  Preparing: select m.*,(select p.name from sys_menu p where p.menu_id = m.parent_id) as parentName from sys_menu m order by m.order_num asc 
+2017-12-22 17:58:13.263 DEBUG 1901 --- [http-nio-9194-exec-7] com.cf.dao.SysMenuDao.queryList          : ==> Parameters: 
+2017-12-22 17:58:13.265 DEBUG 1901 --- [http-nio-9194-exec-7] com.cf.dao.SysMenuDao.queryList          : <==      Total: 29
+2017-12-22 17:58:13.270 DEBUG 1901 --- [http-nio-9194-exec-7] com.cf.dao.SysLogDao.save                : ==>  Preparing: insert into sys_log ( `username`, `operation`, `method`, `params`, `ip`, `create_date` ) values ( ?, ?, ?, ?, ?, ? ) 
+2017-12-22 17:58:13.272 DEBUG 1901 --- [http-nio-9194-exec-7] com.cf.dao.SysLogDao.save                : ==> Parameters: admin(String), 删除用户(String), com.cf.controller.SysUserController.delete()(String), [2](String), 0:0:0:0:0:0:0:1(String), 2017-12-22 17:58:13.269(Timestamp)
+2017-12-22 17:58:13.291 DEBUG 1901 --- [http-nio-9194-exec-7] com.cf.dao.SysLogDao.save                : <==    Updates: 1
+2017-12-22 17:58:13.292 DEBUG 1901 --- [http-nio-9194-exec-7] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20002} exit cache
+2017-12-22 17:58:13.292 DEBUG 1901 --- [http-nio-9194-exec-7] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20040} enter cache
+2017-12-22 17:58:13.296 DEBUG 1901 --- [http-nio-9194-exec-7] com.cf.dao.SysUserDao.deleteBatch        : ==>  Preparing: delete from sys_user where user_id in ( ? ) ; delete from sys_user_role where user_id in ( ? ) 
+2017-12-22 17:58:13.297 DEBUG 1901 --- [http-nio-9194-exec-7] com.cf.dao.SysUserDao.deleteBatch        : ==> Parameters: 2(Long), 2(Long)
+2017-12-22 17:58:13.324 DEBUG 1901 --- [http-nio-9194-exec-7] com.cf.dao.SysUserDao.deleteBatch        : <==    Updates: 1
+2017-12-22 17:58:13.324 DEBUG 1901 --- [http-nio-9194-exec-7] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20001} exit cache
+2017-12-22 17:58:13.324 DEBUG 1901 --- [http-nio-9194-exec-7] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20041} enter cache
+2017-12-22 17:58:15.135 DEBUG 1901 --- [http-nio-9194-exec-9] com.cf.dao.SysMenuDao.queryList          : ==>  Preparing: select m.*,(select p.name from sys_menu p where p.menu_id = m.parent_id) as parentName from sys_menu m order by m.order_num asc 
+2017-12-22 17:58:15.136 DEBUG 1901 --- [http-nio-9194-exec-9] com.cf.dao.SysMenuDao.queryList          : ==> Parameters: 
+2017-12-22 17:58:15.144 DEBUG 1901 --- [http-nio-9194-exec-9] com.cf.dao.SysMenuDao.queryList          : <==      Total: 29
+2017-12-22 17:58:15.146 DEBUG 1901 --- [http-nio-9194-exec-9] com.cf.dao.SysMenuDao.queryList          : ==>  Preparing: select m.*,(select p.name from sys_menu p where p.menu_id = m.parent_id) as parentName from sys_menu m order by m.order_num asc 
+2017-12-22 17:58:15.146 DEBUG 1901 --- [http-nio-9194-exec-9] com.cf.dao.SysMenuDao.queryList          : ==> Parameters: 
+2017-12-22 17:58:15.149 DEBUG 1901 --- [http-nio-9194-exec-9] com.cf.dao.SysMenuDao.queryList          : <==      Total: 29
+2017-12-22 17:58:15.156 DEBUG 1901 --- [http-nio-9194-exec-9] com.cf.dao.SysUserDao.queryList          : ==>  Preparing: select * from sys_user order by user_id desc limit ?, ? 
+2017-12-22 17:58:15.157 DEBUG 1901 --- [http-nio-9194-exec-9] com.cf.dao.SysUserDao.queryList          : ==> Parameters: 0(Integer), 10(Integer)
+2017-12-22 17:58:15.159 DEBUG 1901 --- [http-nio-9194-exec-9] com.cf.dao.SysUserDao.queryList          : <==      Total: 1
+2017-12-22 17:58:15.160 DEBUG 1901 --- [http-nio-9194-exec-9] com.cf.dao.SysUserDao.queryTotal         : ==>  Preparing: select count(*) from sys_user 
+2017-12-22 17:58:15.161 DEBUG 1901 --- [http-nio-9194-exec-9] com.cf.dao.SysUserDao.queryTotal         : ==> Parameters: 
+2017-12-22 17:58:15.162 DEBUG 1901 --- [http-nio-9194-exec-9] com.cf.dao.SysUserDao.queryTotal         : <==      Total: 1
+2017-12-22 17:58:54.089 DEBUG 1901 --- [QuartzScheduler_CfScheduler-bogon1513936636201_MisfireHandler] c.a.druid.pool.PreparedStatementPool     : {conn-10004, pstmt-20042} enter cache
+2017-12-22 17:59:09.074 DEBUG 1901 --- [QuartzScheduler_CfScheduler-bogon1513936636201_ClusterManager] c.a.druid.pool.PreparedStatementPool     : {conn-10004, pstmt-20043} enter cache
+2017-12-22 17:59:09.076 DEBUG 1901 --- [QuartzScheduler_CfScheduler-bogon1513936636201_ClusterManager] c.a.druid.pool.PreparedStatementPool     : {conn-10004, pstmt-20044} enter cache
+2017-12-22 17:59:35.120 DEBUG 1901 --- [CfScheduler_QuartzSchedulerThread] c.a.druid.pool.PreparedStatementPool     : {conn-10004, pstmt-20046} enter cache
+2017-12-22 17:59:35.120 DEBUG 1901 --- [CfScheduler_QuartzSchedulerThread] c.a.druid.pool.PreparedStatementPool     : {conn-10004, pstmt-20045} enter cache
+2017-12-22 17:59:35.122 DEBUG 1901 --- [CfScheduler_QuartzSchedulerThread] c.a.druid.pool.PreparedStatementPool     : {conn-10004, pstmt-20047} enter cache
+2017-12-22 17:59:35.123 DEBUG 1901 --- [CfScheduler_QuartzSchedulerThread] c.a.druid.pool.PreparedStatementPool     : {conn-10004, pstmt-20048} enter cache
+2017-12-22 17:59:35.127 DEBUG 1901 --- [CfScheduler_QuartzSchedulerThread] c.a.druid.pool.PreparedStatementPool     : {conn-10004, pstmt-20049} enter cache
+2017-12-22 18:00:00.010 DEBUG 1901 --- [CfScheduler_QuartzSchedulerThread] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20008} exit cache
+2017-12-22 18:00:00.011 DEBUG 1901 --- [CfScheduler_QuartzSchedulerThread] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20050} enter cache
+2017-12-22 18:00:00.012 DEBUG 1901 --- [CfScheduler_QuartzSchedulerThread] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20009} exit cache
+2017-12-22 18:00:00.013 DEBUG 1901 --- [CfScheduler_QuartzSchedulerThread] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20051} enter cache
+2017-12-22 18:00:00.018 DEBUG 1901 --- [CfScheduler_QuartzSchedulerThread] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20027} exit cache
+2017-12-22 18:00:00.019 DEBUG 1901 --- [CfScheduler_QuartzSchedulerThread] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20052} enter cache
+2017-12-22 18:00:00.021 DEBUG 1901 --- [CfScheduler_QuartzSchedulerThread] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20026} exit cache
+2017-12-22 18:00:00.021 DEBUG 1901 --- [CfScheduler_QuartzSchedulerThread] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20053} enter cache
+2017-12-22 18:00:00.025 DEBUG 1901 --- [CfScheduler_QuartzSchedulerThread] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20029} exit cache
+2017-12-22 18:00:00.025 DEBUG 1901 --- [CfScheduler_QuartzSchedulerThread] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20055} enter cache
+2017-12-22 18:00:00.025 DEBUG 1901 --- [CfScheduler_QuartzSchedulerThread] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20030} exit cache
+2017-12-22 18:00:00.025 DEBUG 1901 --- [CfScheduler_QuartzSchedulerThread] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20054} enter cache
+2017-12-22 18:00:00.069  INFO 1901 --- [CfScheduler_Worker-1] com.cf.utils.ScheduleJob                 : 任务准备执行，任务ID：1
+2017-12-22 18:00:00.075  INFO 1901 --- [pool-2-thread-1] com.cf.task.TestTask                     : 我是带参数的test方法，正在被执行，参数为：para
+2017-12-22 18:00:01.080 DEBUG 1901 --- [pool-2-thread-1] com.cf.dao.SysUserDao.queryObject        : ==>  Preparing: select * from sys_user where user_id = ? 
+2017-12-22 18:00:01.081 DEBUG 1901 --- [pool-2-thread-1] com.cf.dao.SysUserDao.queryObject        : ==> Parameters: 1(Long)
+2017-12-22 18:00:01.083 DEBUG 1901 --- [pool-2-thread-1] com.cf.dao.SysUserDao.queryObject        : <==      Total: 1
+2017-12-22 18:00:01.083 DEBUG 1901 --- [pool-2-thread-1] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20032} exit cache
+2017-12-22 18:00:01.084 DEBUG 1901 --- [pool-2-thread-1] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20056} enter cache
+2017-12-22 18:00:01.093  INFO 1901 --- [CfScheduler_Worker-1] com.cf.utils.ScheduleJob                 : 任务执行完毕，任务ID：1  总共耗时：1024毫秒
+2017-12-22 18:00:01.093 DEBUG 1901 --- [CfScheduler_Worker-1] com.cf.dao.ScheduleJobLogDao.save        : ==>  Preparing: insert into schedule_job_log ( `job_id`, `bean_name`, `method_name`, `params`, `status`, `error`, `times`, `create_time` ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2017-12-22 18:00:01.094 DEBUG 1901 --- [CfScheduler_Worker-1] com.cf.dao.ScheduleJobLogDao.save        : ==> Parameters: 1(Long), testTask(String), test(String), para(String), 0(Integer), null, 1024(Integer), 2017-12-22 18:00:00.069(Timestamp)
+2017-12-22 18:00:01.109 DEBUG 1901 --- [CfScheduler_Worker-1] com.cf.dao.ScheduleJobLogDao.save        : <==    Updates: 1
+2017-12-22 18:00:01.109 DEBUG 1901 --- [CfScheduler_Worker-1] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20033} exit cache
+2017-12-22 18:00:01.109 DEBUG 1901 --- [CfScheduler_Worker-1] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20057} enter cache
+2017-12-22 18:00:01.112 DEBUG 1901 --- [CfScheduler_Worker-1] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20034} exit cache
+2017-12-22 18:00:01.112 DEBUG 1901 --- [CfScheduler_Worker-1] c.a.druid.pool.PreparedStatementPool     : {conn-10005, pstmt-20058} enter cache
